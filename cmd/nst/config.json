@@ -1,0 +1,13 @@
+{
+    "selenium":{
+        "port": 8081,
+        "server_path": "webdriver/selenium-server-standalone-3.141.59.jar",
+        "drivers":{
+            "chrome_path": "webdriver/chromedriver.exe",
+            "gecko_path": "webdriver/geckodriver-win64.exe"
+        },
+        "xvfb": {
+            "enabled": false
+        }
+    }
+}
